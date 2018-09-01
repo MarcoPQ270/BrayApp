@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements OnCompletionListe
         stop = (Button) findViewById(R.id.stop);
         rep=(Button) findViewById(R.id.rep);
         tv1=(TextView) findViewById(R.id.tv1);
-
+   //
 
     }
     public void grabar(View v) {
@@ -94,6 +94,6 @@ public class MainActivity extends AppCompatActivity implements OnCompletionListe
 
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
-        
+
     }
 }
